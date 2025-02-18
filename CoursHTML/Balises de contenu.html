@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="Description de la page">
+    <meta name="keywords" content="mot-clé1, mot-clé2">
+    <meta name="autor" content="Auteur">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="mapage.css" >
+    <title>Ma première page HTML</title>
+  </head>
+
+  <body>
+    <header>
+      <!--En Tête de page-->
+
+      <nav>
+        <!--Navigation principale-->
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li>Prestation</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Contenu principal-->
+    <main>
+
+      <section id="présentation">présentation</section>
+      <section id="cv">CV</section>
+      <section id="skills">skills</section>
+
+      <!--LES TITRES-->
+      <h1>Mon titre</h1>
+      <h2>Mon titre</h2>
+      <h3>Mon titre</h3>
+      <h4>Mon titre</h4>
+      <h5>Mon titre</h5>
+      <h6>Mon titre</h6>
+
+      <!--LES TEXTE-->
+      <p class="mon-texte">Mon premier paragraphe</p>
+      <strong class="mon-texte">Texte important</strong>
+      <em>Texte emphatique</em>
+      <mark>Texte surligné</mark>
+      <blockquote>Citation</blockquote>
+      <pre>Texte préformé</pre>
+      <code>Code informatique</code>
+
+      <!--LES MEDIAS ET LES LIENS-->
+
+      <a href="url"></a>
+      <!--lien hypertexte-->
+
+      <img src="image.jpg" alt="objet de l'image" />
+      <!--Image-->
+
+      <video src="video.mp4"></video>
+      <!--Video-->
+
+      <audio src="audio.mp3"></audio>
+      <!--Audio-->
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.8685995547135!2d-0.037418724028812626!3d49.0130847898084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480a0ae51d797e77%3A0x19e5615cbd287eb1!2s2%20Rue%20du%20G%C3%A9n%C3%A9ral%20Delaunay%2C%2014170%20Saint-Pierre-en-Auge!5e0!3m2!1sfr!2sfr!4v1739360659208!5m2!1sfr!2sfr"
+        width="400"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <!--Carte (google map...) ou contenu embarqué-->
+
+      <!--LES LISTES-->
+      <ul>
+        <li>Liste non ordonnée</li>
+        <li>Liste non ordonnée</li>
+        <li>Liste non ordonnée</li>
+      </ul>
+
+      <ol>
+        <li>Liste ordonnée</li>
+        <li>Liste ordonnée</li>
+        <li>Liste ordonnée</li>
+      </ol>
+
+      <dl>
+        <dt>Terme</dt>
+        <dd>Définition</dd>
+      </dl>
+
+      <!--LES FORMULAIRES--><!--attention SECU et RGPD-->
+      <form action="" method="post">
+        <label for="name" aria-label="nom" role="">Nom</label>
+        <input type="text" id="Nom" name="Nom" required></input>
+
+        <input type="email" placeholder="email">
+        <input type="password" placeholder="Mot de passe">
+        <input type="number" min="0" max="100">
+        <input type="date">
+        <input type="file">
+        <input type="checkbox">
+        <input type="radio">
+
+        <select>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </select>
+
+        <textarea cols="50" rows="4"></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+
+      <!--LES TABLEAUX-->
+      <table>
+        <thead>
+          <tr>
+            <th>En tête</th>
+            <th>En tête</th>
+            <th>En tête</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Cellule</td>
+          </tr>
+          <tr>
+            <td>Cellule</td>
+          </tr>
+          <tr>
+            <td>Cellule</td>
+          </tr>
+        </tbody>
+
+      </table>
+
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
