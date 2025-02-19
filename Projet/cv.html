@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Description de la page" />
-    <meta name="keywords" content="mot-clé1, mot-clé2" />
-    <meta name="autor" content="Auteur" />
+    <meta name="description" content="mon CV" />
+    <meta name="keywords" content="CV, Developpeuse" />
+    <meta name="autor" content="Estefania" />
     <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="/Assets/CSS/cv.css" />
 
@@ -14,31 +14,103 @@
 
   <body>
     <header>
-      <div class="container">
-        <img
-          src="/Assets/images/moi.jpg"
-          alt="Photo de profil"
-          class="profile-picture"
-        />
-        <h1>Estefania Capitao - Developpeuse web en formation</h1>
-      </div>
-
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="#diplome">Diplome</a></li>
-          <li><a href="#xp">Experience</a></li>
-          <li><a href="#langage">Langages</a></li>
+      <!--NAV BAR-->
+      <nav class="navbar">
+        <ul class="nav">
+          <li><a href="#about me">Présentation</a></li>
+          <li><a href="#diplome">Diplomes</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#Langues">Langues</a></li>
         </ul>
       </nav>
+
+      <!--EN TETE-->
+      <div class="en-tete">
+        <img
+          src="/Assets/images/IMG-20250130-WA0002.jpeg"
+          alt="Moi"
+          class="profile-picture"
+        />
+        <h1>Estefania Capitao- Developpeuse web en formation</h1>
+      </div>
     </header>
 
     <main>
-      <section id="diplome"></section>
-      <section id="xp"></section>
-      <section id="langage"></section>
+      <!-- PARTIE GAUCHE-->
+      <div class="blocgauche">
+        <section id="about me">
+          <h2>Présentation</h2>
+          <p>
+            Afin de diversifier mes compétences, j'ai décider de me former dans
+            le domaine du codage informatique. Minitieuse et perfectionniste,
+            j'aime voir en temps réel l'évolution de mon travail.
+          </p>
+        </section>
+
+        <section id="skills">
+          <h2>Compétences</h2>
+          <div>Initiation au codage informatique</div>
+          <div>Internet</div>
+          <div>Aisance relationnelle</div>
+          <div>Attrait pour la résoltion de problèmes</div>
+          <div>Autonomie</div>
+        </section>
+
+        <section id="Langues">
+          <h2>Langues</h2>
+          <div>Portugais - Maternel</div>
+          <div>Français - Maternel</div>
+          <div>Espagnol - Courant</div>
+          <div>Anglais - Scolaire</div>
+        </section>
+      </div>
+
+      <!-- PARTIE CENTRALE-->
+      <div class="bloccentral">
+        <section id="diplome">
+          <h2>Diplomes</h2>
+          <div>2016-2017 : BTS Assistante de gestion PME - PMI</div>
+          <div>2006-2008 : BP Préparateur en pharmacie</div>
+          <div>2005 : BAC STL BGB</div>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <div>
+            06/2017-01/2019 :Assistante polyvalente - AKTIS PARTNERS - Paris
+            XVII
+            <ul>
+              <li>
+                Assistance technique, informatique,administrative et commerciale
+              </li>
+              <li>Aide comptable</li>
+            </ul>
+          </div>
+          <div>
+            09/2010-05/2017 :Péparatrice en pharmacie- Pharmacie de la Mairie -
+            Meudon le Foret (92)
+            <ul>
+              <li>Préparations Magistrales et Officinales</li>
+              <li>Délivrance au comptoir</li>
+              <li>Gestion des stocks et mise en rayon</li>
+            </ul>
+          </div>
+
+          <div>
+            01/2019-12/2020 :Péparatrice en pharmacie - Pharmacie et
+            préparatoire DELPECH - Paris V
+            <ul>
+              <li>Préparations Magistrales et Officinales</li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <i></i>
+      <a href="/Projet/Mentions légales.html">Mentions légales</a>
+    </footer>
   </body>
 </html>
