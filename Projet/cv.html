@@ -7,6 +7,12 @@
     <meta name="keywords" content="CV, Developpeuse" />
     <meta name="autor" content="Estefania" />
     <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruluko&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/Assets/CSS/cv.css" />
 
     <title>CV Estefania CAPITAO</title>
@@ -14,9 +20,8 @@
 
   <body>
     <header>
-      <!--NAV BAR-->
-      <nav class="navbar">
-        <ul class="nav">
+      <nav>
+        <ul class="menu">
           <li><a href="#about me">Présentation</a></li>
           <li><a href="#diplome">Diplomes</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -24,92 +29,92 @@
           <li><a href="#Langues">Langues</a></li>
         </ul>
       </nav>
-
-      <!--EN TETE-->
-      <div class="en-tete">
-        <img
-          src="/Assets/images/IMG-20250130-WA0002.jpeg"
-          alt="Moi"
-          class="profile-picture"
-        />
-        <h1>Estefania Capitao- Developpeuse web en formation</h1>
+      <div class="titre">
+        <h1>Estefania CAPITAO</h1>
       </div>
     </header>
 
     <main>
-      <!-- PARTIE GAUCHE-->
-      <div class="blocgauche">
-        <section id="about me">
-          <h2>Présentation</h2>
+      <section id="aboutme">
+        <div class="info">
+          <h3>A propos de moi</h3>
+          <p>Developpeuse web depuis 2025, mes langages sont HTML5 et CSS3.</p>
+          <div class="image">
+            <img
+              src="/Assets/images/IMG-20250130-WA0002.jpeg"
+              alt="photo de moi"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="experiences">
+        <div class="section_title">
+          <h3>Experiences</h3>
+        </div>
+
+        <div class="emploi">
+          <h5>Assistante polyvalente - AKTIS PARTNERS - Paris XVII</h5>
+          <h6>06/2017-01/2019</h6>
           <p>
-            Afin de diversifier mes compétences, j'ai décider de me former dans
-            le domaine du codage informatique. Minitieuse et perfectionniste,
-            j'aime voir en temps réel l'évolution de mon travail.
+            Assistance technique, informatique,administrative et commerciale,
+            Aide comptable
           </p>
-        </section>
+        </div>
 
-        <section id="skills">
-          <h2>Compétences</h2>
-          <div>Initiation au codage informatique</div>
-          <div>Internet</div>
-          <div>Aisance relationnelle</div>
-          <div>Attrait pour la résoltion de problèmes</div>
-          <div>Autonomie</div>
-        </section>
+        <div class="emploi">
+          <h5>
+            Péparatrice en pharmacie- Pharmacie de la Mairie - Meudon le Foret
+            (92)
+          </h5>
+          <h6>09/2010-05/2017</h6>
+          <p>
+            Préparations Magistrales et Officinales, Délivrance au comptoir,
+            Gestion des stocks et mise en rayon
+          </p>
+        </div>
 
-        <section id="Langues">
-          <h2>Langues</h2>
-          <div>Portugais - Maternel</div>
-          <div>Français - Maternel</div>
-          <div>Espagnol - Courant</div>
-          <div>Anglais - Scolaire</div>
-        </section>
-      </div>
+        <div class="emploi">
+          <h5>
+            Péparatrice en pharmacie - Pharmacie et préparatoire DELPECH - Paris
+            V
+          </h5>
+          <h6>01/2019-12/2020</h6>
+          <p>Préparations Magistrales et Officinales</p>
+        </div>
+      </section>
 
-      <!-- PARTIE CENTRALE-->
-      <div class="bloccentral">
-        <section id="diplome">
-          <h2>Diplomes</h2>
-          <div>2016-2017 : BTS Assistante de gestion PME - PMI</div>
-          <div>2006-2008 : BP Préparateur en pharmacie</div>
-          <div>2005 : BAC STL BGB</div>
-        </section>
+      <section id="competences">
+        <div class="skills">
+          <h3>Compétences</h3>
+        </div>
+      </section>
 
-        <section id="experience">
-          <h2>Experience</h2>
-          <div>
-            06/2017-01/2019 :Assistante polyvalente - AKTIS PARTNERS - Paris
-            XVII
-            <ul>
-              <li>
-                Assistance technique, informatique,administrative et commerciale
-              </li>
-              <li>Aide comptable</li>
-            </ul>
-          </div>
-          <div>
-            09/2010-05/2017 :Péparatrice en pharmacie- Pharmacie de la Mairie -
-            Meudon le Foret (92)
-            <ul>
-              <li>Préparations Magistrales et Officinales</li>
-              <li>Délivrance au comptoir</li>
-              <li>Gestion des stocks et mise en rayon</li>
-            </ul>
-          </div>
+      <section id="Langues">
+        <h3>Langues</h3>
+        <div>Portugais - Maternel</div>
+        <div>Français - Maternel</div>
+        <div>Espagnol - Courant</div>
+        <div>Anglais - Scolaire</div>
+      </section>
 
-          <div>
-            01/2019-12/2020 :Péparatrice en pharmacie - Pharmacie et
-            préparatoire DELPECH - Paris V
-            <ul>
-              <li>Préparations Magistrales et Officinales</li>
-            </ul>
-          </div>
-        </section>
-      </div>
+      <section id="diplome">
+        <h3>Diplomes</h3>
+        <div>2016-2017 : BTS Assistante de gestion PME - PMI</div>
+        <div>2006-2008 : BP Préparateur en pharmacie</div>
+        <div>2005 : BAC STL BGB</div>
+      </section>
     </main>
 
     <footer>
-      <i></i>
+      <i class="fa-brands fa-linkedin"
+        ><a
+          href="https://www.linkedin.com/in/estefania-capit%C3%A3o-283676123/"
+        ></a
+      ></i>
+      <i class="fa-brands fa-github"
+        ><a href="https://github.com/Fani1987"></a
+      ></i>
       <a href="/Projet/Mentions légales.html">Mentions légales</a>
     </footer>
   </body>
