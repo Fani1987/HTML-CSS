@@ -1,3 +1,4 @@
+/* GENERAL */
 html {
   height: 100%;
   width: 100%;
@@ -24,14 +25,6 @@ h3 {
   color: darkmagenta;
 }
 
-#aboutme {
-  text-align: center;
-  font-size: 18px;
-}
-
-.info {
-}
-
 .titre {
   display: flex;
   justify-content: center;
@@ -45,6 +38,7 @@ h1 {
   font-family: "Pacifico", serif;
 }
 
+/* NAVIGATION */
 nav {
   width: 100%;
   background-color: aliceblue;
@@ -66,6 +60,12 @@ nav {
   color: darkred;
 }
 
+/* ABOUT ME */
+#aboutme {
+  text-align: center;
+  font-size: 18px;
+}
+
 .image {
   width: 100%;
 }
@@ -75,6 +75,7 @@ nav {
   width: 20%;
 }
 
+/* EXPERIENCES */
 #experiences {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +93,26 @@ nav {
   width: 50%;
   margin-top: 5%;
 }
+/* COMPETENCES */
+#skills {
+  background-color: darkmagenta;
+  height: auto;
+  width: 100%;
+}
 
+.language {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+}
+
+figure {
+  width: 25%;
+  margin: auto 2%;
+}
+
+/* RESPONSIVE */
 @media screen and (max-width: 768px) {
   .menu {
     flex-direction: column;
@@ -103,12 +123,18 @@ nav {
   .emploi {
     width: 100%;
   }
+  .language {
+    flex-direction: column;
+    justify-content: center;
+  }
+  figure {
+    width: 100%;
+  }
 }
 
+/* FOOTER */
 footer {
-  background-image: url(/Assets/images/html\ rose.jpg);
-  padding: 20px;
-  background-size: cover;
+  background-color: darkmagenta;
   text-align: center;
-  color: darkmagenta;
+  color: white;
 }
