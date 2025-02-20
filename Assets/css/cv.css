@@ -11,6 +11,10 @@ html {
   text-decoration: none;
 }
 
+section {
+  margin-top: 5%;
+}
+/* HEADER */
 header {
   width: 100%;
   height: 100vh;
@@ -18,7 +22,11 @@ header {
   background-image: url(/Assets/images/html\ rose.jpg);
   background-size: cover;
 }
-
+h1 {
+  color: white;
+  font-size: 4em;
+  font-family: "Pacifico", serif;
+}
 h3 {
   text-align: center;
   font-size: 18px;
@@ -30,12 +38,6 @@ h3 {
   justify-content: center;
   align-items: center;
   margin: auto;
-}
-
-h1 {
-  color: white;
-  font-size: 4em;
-  font-family: "Pacifico", serif;
 }
 
 /* NAVIGATION */
@@ -80,36 +82,52 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-
 .section_title {
   width: 100%;
 }
 
-.emploi {
+.emploi1,
+.emploi3 {
+  border-right: 1px solid darkmagenta;
+}
+
+.emploi1,
+.emploi2,
+.emploi3,
+.emploi4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 49%;
   margin-top: 5%;
 }
 /* COMPETENCES */
 #skills {
-  background-color: darkmagenta;
+  display: flex;
+  flex-wrap: wrap;
   height: auto;
+  width: 100%;
+}
+.section_title {
   width: 100%;
 }
 
 .language {
   display: flex;
   flex-wrap: wrap;
-  width: 85%;
-  margin: auto;
+  width: 100%;
+  background-color: darkmagenta;
 }
 
 figure {
-  width: 25%;
-  margin: auto 2%;
+  width: 300px;
+  height: auto;
+  border: 1px solid white;
+  margin: 1% 2%;
+}
+figure img {
+  width: 100%;
 }
 
 /* RESPONSIVE */
@@ -135,6 +153,21 @@ figure {
 /* FOOTER */
 footer {
   background-color: darkmagenta;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.reseaux,
+.copy,
+.mentions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reseaux a {
+  font-size: 2.2rem;
+  margin: 2%;
   color: white;
 }
